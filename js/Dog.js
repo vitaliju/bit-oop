@@ -1,8 +1,8 @@
 export class Dog {
-  constructor(name, color, amzius) {
-    this.vardas = name;
+  constructor(name, color, age) {
+    this.name = name;
     this.furcolor = color;
-    this.age = amzius;
+    this.age = age;
     this.legsCount = 4;
     this.hasTail = true;
   }
