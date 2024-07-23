@@ -1,4 +1,4 @@
-import { Bird } from "./Bird.js";
+import { Bird } from './Bird.js';
 
 export class Raven extends Bird {
     constructor(name) {

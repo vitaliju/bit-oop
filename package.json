@@ -1,15 +1,16 @@
 {
-  "name": "bit-oop",
-  "version": "1.0.0",
-  "description": "",
-  "type": "module",
-  "main": "index.js",
-  "scripts": {
-    "dev": "node --watch ./index.js",
-    "animal": "node --watch ./animal-world.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+    "name": "bit-oop",
+    "version": "1.0.0",
+    "description": "",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "dev": "node --watch ./index.js",
+        "static": "node --watch ./static/index.js",
+        "animal": "node --watch ./animal-world.js",
+        "test": "node --watch ./static/validation-tests.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
 }
